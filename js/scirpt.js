@@ -61,10 +61,10 @@ function basketInfo() {
         }
     }
 }
- const cardImages = document.querySelectorAll('.card__img');
- cardImages.forEach(function (cardImage) {
-     cardImage.addEventListener('click', function () {
-         const clickedSrc = cardImage.getAttribute('src');
+ const dburger__images = document.querySelectorAll('.card__img');
+ dburger__images.forEach(function (dburger__images) {
+    dburger__images.addEventListener('click', function () {
+         const clickedSrc = dburger__images.getAttribute('src');
          const headerImage = document.querySelector('.header__img');
          headerImage.setAttribute('src', clickedSrc);
      });
